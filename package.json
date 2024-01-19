@@ -1,5 +1,5 @@
 {
-  "name": "canvas-interactive",
+  "name": "@univercee/canvas-interactive",
   "version": "0.0.1",
   "description": "Interactive and clickable js canvas with animation",
   "scripts": {
@@ -30,5 +30,9 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/univercee"
+  }
+  
 }
