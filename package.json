@@ -32,7 +32,7 @@
   ],
   "types": "dist/index.d.ts",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/univercee"
+    "univercee:registry": "https://npm.pkg.github.com"
   }
   
 }
