@@ -1,9 +1,9 @@
-import react from 'react'
+import react from 'react';
+import './Canvas.css';
 
-
-function Canvas() {
+const Canvas = ()=>{
     return (
-        <h1>This is canvas-interactive library</h1>
+        <h1 className="red">This is canvas-interactive library</h1>
     )
 }
 

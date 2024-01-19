@@ -1,6 +1,6 @@
 {
   "name": "@univercee/canvas-interactive",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Interactive and clickable js canvas with animation",
   "scripts": {
     "rollup": "rollup -c",
@@ -34,6 +34,8 @@
   "types": "dist/index.d.ts",
   "publishConfig": {
     "@univercee:registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "rollup-plugin-postcss": "^4.0.2"
   }
-  
 }
